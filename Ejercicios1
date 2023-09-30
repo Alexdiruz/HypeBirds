@@ -1,0 +1,96 @@
+//Ejercicios
+//Lección 1
+
+// 1a. Use alert(...) to display 'Good Morning!' in a pop-up.
+alert('Good Morning!');
+
+//1b. Display your name in a pop-up.
+alert('Alejandro');
+
+//1c. Using math, calculate 10 + 5 in the console.
+10 + 5
+
+//1d. Calculate 20 - 5 in the Console.
+20 - 5
+
+//1e. Calculate 2 + 2 - 5 in the Console.
+2 + 2 - 5
+
+//1f. Use document.body.innerHTML = ...; to display 'Good Morning!' on the web page.
+document.body.innerHTML = 'Good Morning';
+
+//1g. Display your name on the web page.
+document.body.innerHTML = 'Alejandro';
+
+//1h. You order a T-shirt for $10, socks for $8, and dinner plates for $20. Use JavaScript to calculate the total cost of your order.
+10 + 8 + 20
+
+//1i. Your bank account has $100, you spend $20 for lunch, $50 for dinner, and earn $200 from your job.
+100 - 50 + 200
+
+//1j. Use document.body.innerHTML = ...; to make the web page blank.
+document.body.innerHTML = '';
+
+
+//Lección 2
+
+//2a. At a restaurant, you order 1 soup for $10, 3 burger each for $3, and 1 ice-cream for $5. Calculate the cost.
+10 + 3 * 3 + 5
+
+//2b. You're at a restaurant with 2 friends (3 people in total) and make the same order as 2a. Calculate how much each persona pays.
+(10 + 3 * 3 + 5) / 3
+
+//2c. Calculate the total cost of a toaster ($18.50) and 2 shirts ($7.50) each.
+(1850 + 2 * 750) / 100
+
+//2d. Calculate a 10% tax for the total in excercise 2c.
+((18.50 + 2 * 7.50) * 0.1) / 100
+
+//2e. Calculate a 20% tax for the total in 2c.
+((1850 + 2 * 750) * 0.2) / 100
+
+//2f. Calculate the costs of the products.
+(1899 + 2095 + 799) / 100;¿
+
+//2g. Calculate the Total before Tax.
+(1899 + 2095 + 799 + 499) / 100
+
+//2h. Calculate the 10% tax exactly.
+Math.round((1899 + 2095 + 799 + 499) * 0.1) / 100;
+
+//2i. Calculate order total.
+(1899 + 2095 + 799 + 499) / 100 + Math.round((1899 + 2095 + 799 + 499) * 0.1) / 100
+
+//2j. Round a number down.
+Math.floor(2.8);
+
+//2k. Round a number up.
+Math.ceil(2.2)
+
+//2l. The temperature is 25°C. Calculate the temperature in Fahrenheit.
+25 * (9/5) + 32
+
+//2m. The temperature is 86°F. Calculate the temperature in Celsius.
+(86 - 32) * (5/9)
+
+//2n. The temperature is -5°C. Calculate the temperature in Fahrenheit.
+(-5) * (9/5) + 32
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
