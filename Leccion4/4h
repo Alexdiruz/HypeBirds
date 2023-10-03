@@ -1,0 +1,27 @@
+//4h. Add a <script> element so that when the page loads, it displays the message 'Welcome!'
+//in the console.
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Buttons</title>
+    <style>
+      .add-button{
+        background-color: yellow;
+      }
+      .buy-button{
+        background-color: orange;
+      }
+    </style>
+  </head>
+  <body>
+    <button class="add-button">
+      Add to cart
+    </button>
+    <button class = "buy-button">
+      Buy now
+    </button>
+    <script>
+      console.log('Wlcome!'>
+    </script>
+  </body>
+</html>
