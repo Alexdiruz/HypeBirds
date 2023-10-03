@@ -1,0 +1,2 @@
+//3c. Using concatenation, add 2 strings from 3a and 3b together.
+'My name is: ' + 'Alex'
