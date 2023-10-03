@@ -1,0 +1,2 @@
+//2d. Calculate a 10% tax for the total in excercise 2c.
+((18.50 + 2 * 7.50) * 0.1) / 100
