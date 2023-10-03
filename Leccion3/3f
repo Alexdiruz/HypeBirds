@@ -1,0 +1,2 @@
+//3f. Display the text from 3e in a popup.
+alert(`Total cost: $${5+3}`);
