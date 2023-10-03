@@ -1,0 +1,17 @@
+//6h.
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+    <script>
+      let result = '';
+      const randomNumber = Math.random()
+      if (randomNumber < 0.5){
+        result = 'heads';
+      }else{
+        result = 'tails';
+      }
+    </script>
+  </body>
+</html>
