@@ -1,0 +1,4 @@
+//3j. Using a multiline string, create the text form 3h and add  aline of text underneath:
+//'Thank you, come again!'. Display both lines in a popup.
+alert(`Total cost: $${(599+295)/100}
+Thank you, come again!`)
