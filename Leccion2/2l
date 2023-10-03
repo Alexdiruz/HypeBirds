@@ -1,0 +1,2 @@
+//2l. The temperature is 25°C. Calculate the temperature in Fahrenheit.
+25 * (9/5) + 32
