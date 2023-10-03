@@ -1,0 +1,2 @@
+//2a. At a restaurant, you order 1 soup for $10, 3 burger each for $3, and 1 ice-cream for $5. Calculate the cost.
+10 + 3 * 3 + 5
