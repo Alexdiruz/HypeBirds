@@ -1,0 +1,7 @@
+//4b. Create 2 buttons. One with your name and one with your favorte food.
+<button>
+  Alex
+</button>
+<button>
+  Hamburguesa
+</button>
