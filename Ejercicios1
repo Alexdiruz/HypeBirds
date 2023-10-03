@@ -50,7 +50,7 @@ document.body.innerHTML = '';
 ((1850 + 2 * 750) * 0.2) / 100
 
 //2f. Calculate the costs of the products.
-(1899 + 2095 + 799) / 100;¿
+(1899 + 2095 + 799) / 100;
 
 //2g. Calculate the Total before Tax.
 (1899 + 2095 + 799 + 499) / 100
