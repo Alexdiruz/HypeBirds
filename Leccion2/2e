@@ -1,0 +1,2 @@
+//2e. Calculate a 20% tax for the total in 2c.
+((1850 + 2 * 750) * 0.2) / 100
