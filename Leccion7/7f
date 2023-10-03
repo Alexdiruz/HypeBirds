@@ -1,0 +1,4 @@
+function convertTemperature(degrees,unit){
+  unit === 'C'? (r = convertToFahrenheit(degrees),ru='F'):unit === 'F'? (r=convertToCelsius(degrees),ru='C'):console.log('Invalid unit');
+  return `${r}${ru}`;
+}
