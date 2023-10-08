@@ -1,0 +1,22 @@
+.js-number{
+  background-color: rgb(120,120,120);
+  color: white;
+  border: none;
+  height: 45px;
+  width: 45px;
+  border-radius:20px;
+  cursor: pointer;
+}
+
+.js-symbol{
+  background-color: orange;
+  border: none;
+  height: 45px;
+  width: 45px;
+  border-radius:20px;
+  cursor: pointer;
+}
+
+.js-result{
+  font-size: 40px;
+}
