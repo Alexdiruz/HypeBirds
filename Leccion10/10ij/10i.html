@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles/10i.css">
+  </head>
+  <body>
+    <p class="js-result"></p>
+    <p>
+      <button onclick="
+        calculation += '1';
+        actualizar(calculation);
+      " class="js-number">1</button>
+      <button onclick="
+        calculation += '2';
+        actualizar(calculation);
+      " class="js-number">2</button>
+      <button onclick="
+        calculation += '3';
+        actualizar(calculation);
+      " class="js-number">3</button>
+      <button onclick="
+        calculation += ' + ';
+        actualizar(calculation);
+      " class="js-symbol">+</button>
+    </p>
+    <p>
+      <button onclick="
+        calculation += '4';
+        actualizar(calculation);
+      " class="js-number">4</button>
+      <button onclick="
+        calculation += '5';
+        actualizar(calculation);
+      " class="js-number">5</button>
+      <button onclick="
+        calculation += '6';
+        actualizar(calculation);
+      " class="js-number">6</button>
+      <button onclick="
+        calculation += ' - ';
+        actualizar(calculation);
+      " class="js-symbol">-</button>
+    </p>
+    <p>
+      <button onclick="
+        calculation += '7';
+        actualizar(calculation);
+      " class="js-number">7</button>
+      <button onclick="
+        calculation += '8';
+        actualizar(calculation);
+      " class="js-number">8</button>
+      <button onclick="
+        calculation += '9';
+        actualizar(calculation);
+      " class="js-number">9</button>
+      <button onclick="
+        calculation += ' * ';
+        actualizar(calculation);
+      " class="js-symbol">*</button>
+    </p>
+    <p>
+      <button onclick="
+        calculation += '0';
+        actualizar(calculation);
+      " class="js-number">0</button>
+      <button onclick="
+        calculation += '.';
+        actualizar(calculation);
+      " class="js-number">.</button>
+      <button onclick = "
+        calculation = eval(calculation);
+        actualizar(calculation);
+      " class="js-number">=</button>
+      <button onclick="
+        calculation += ' / ';
+        actualizar(calculation);
+      " class="js-symbol">/</button>
+    </p>
+    <button onclick="
+        calculation = '';
+        actualizar(calculation);
+      " class="js-number">Clear</button>
+
+    <script src="scripts/10i.js"></script>
+  </body>
+</html>
