@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>10a</title>
+  </head>
+  <body>
+    <button class = "js-button">Test</button>
+    <script>
+      const result = document.querySelector('button').classList.contains('js-button')
+      console.log(result);
+    </script>
+  </body>
+</html>
