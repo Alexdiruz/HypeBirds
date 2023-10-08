@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>10e</title>
+    <link rel="stylesheet" href="styles/10d.css">
+  </head>
+  <body>
+    <button class="js-button" onClick="change(this)">Gaming</button>
+    <button class="js-button" onClick="change(this)">Music</button>
+    <button class="js-button" onClick="change(this)">Tech</button>
+    <script>
+      function change(buttonElement) {
+        const buttons = document.querySelectorAll('.js-button');
+        buttons.forEach((button) => {
+          button.classList.remove('is-toggled');
+        });
+        buttonElement.classList.add('is-toggled');
+      }
+    </script>
+  </body>
+</html>
