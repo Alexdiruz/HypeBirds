@@ -1,0 +1,25 @@
+.js-add-button{
+  background-color: rgb(255,216,20);
+  padding: 8px 45px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.js-request-button{
+  background-color: black;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.js-schedule-button{
+  background-color: rgb(230,230,230);
+  font-weight: bold;
+  border: none;
+  padding: 9.8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
