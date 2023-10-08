@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>10d</title>
+  </head>
+  <link
+  rel="stylesheet"
+  href="styles/10d.css">
+  <body>
+    <button class = "js-button" onClick="
+      change();
+    ">Gaming</button>
+    <script>
+      const buttonElement = document.querySelector('button');
+      function change(){
+        if(buttonElement.classList.contains('is-toggled')){
+          buttonElement.classList.remove('is-toggled');
+        } else{
+          buttonElement.classList.add('is-toggled');
+        }
+      }
+    </script>
+  </body>
+</html>
