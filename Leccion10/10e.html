@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>10e</title>
+    <link rel="stylesheet" href="styles/10d.css">
+  </head>
+  <body>
+    <button class="js-button" onClick="
+      change(this)
+    ">Gaming</button>
+    <button class="js-button" onClick="
+      change(this)
+    ">Music</button>
+    <button class="js-button" onClick="
+      change(this)
+    ">Tech</button>
+    <script>
+      function change(buttonElement) {
+        if (buttonElement.classList.contains('is-toggled')) {
+          buttonElement.classList.remove('is-toggled');
+        } else {
+          buttonElement.classList.add('is-toggled');
+        }
+      }
+    </script>
+  </body>
+</html>
