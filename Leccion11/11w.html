@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>11n</title>
+  </head>
+  <body>
+    <script>
+      function lookFor(array, word, startIndex) {
+        for (let i = startIndex; i < array.length; i++) {
+          if (array[i] === word) {
+            return i;
+          }
+        }
+        return -1;
+      }
+      
+      function uniqueArray(array) {
+        let arrayAux = [];
+        let i = 0;
+      
+        while (i < array.length) {
+          const aux = array[i];
+          arrayAux.push(aux);
+      
+          let index = lookFor(array, aux, i + 1);
+      
+          while (index !== -1) {
+            array.splice(index, 1);
+            const newIndex = lookFor(array, aux, i + 1);
+            index = newIndex;
+          }
+          i++;
+        }
+        return arrayAux;
+      }
+      
+      const array = ['green', 'red', 'blue', 'red'];
+      console.log(uniqueArray(array));
+      
+      
+    </script>
+  </body>
+</html>
