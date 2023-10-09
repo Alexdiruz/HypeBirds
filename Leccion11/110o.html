@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>11n</title>
+  </head>
+  <body>
+    <script>
+      function lookFor(array,word) {
+        let ind = -1; 
+        for (let i = 0; i < array.length; i++) {
+
+          if (array[i]===word) {
+            ind = i;
+            break
+          }
+        }
+        console.log(ind);
+      }
+
+      const array = ["hello","world","search","good"];
+      lookFor(array,'search');
+
+      
+    </script>
+  </body>
+</html>
