@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>11j</title>
+  </head>
+  <body>
+    <script>
+      const array = [-2,3,-5,7,10];
+
+      function countPositive(array){
+        let posCount = 0;
+        for(i=0;i<array.length;i++){
+          if(array[i]>0){
+            posCount++;
+          }
+        }
+        return posCount
+      }
+      console.log(countPositive(array));
+    </script>
+  </body>
+</html>
