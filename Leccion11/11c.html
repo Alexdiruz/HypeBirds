@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>11c</title>
+  </head>
+  <body>
+    <script>
+      const array = [1,20,22,24,5];
+      function arraySwap(array){
+        const inicio = array[0];
+        const final = array[array.length-1];
+        array[0] = final;
+        array[array.length-1] = inicio
+
+        return array
+      }
+
+      console.log(arraySwap(array));
+    </script>
+  </body>
+</html>
