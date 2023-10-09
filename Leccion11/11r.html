@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>11n</title>
+  </head>
+  <body>
+    <script>
+      function lookFor(array,word) {
+        result = [];
+        for (let i = 0; i < array.length; i++) {
+
+          if (array[i]===word) {
+            continue
+            
+          } else{
+            result.push(array[i])
+          }
+        }
+        return result
+      }
+
+      const array = ['egg','apple','egg','egg','ham'];
+      console.log(lookFor(array,'egg'));
+
+      
+    </script>
+  </body>
+</html>
