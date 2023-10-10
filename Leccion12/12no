@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+    </style>
+  </head>
+  <body>
+    <script>
+    function removeEggs(array){
+      count = 0;
+      array = array.filter(element => {
+        if(count < 2 && element==='Egg'){
+          count++;
+          return false;
+        }
+        return true;
+      })
+      return array;
+    }
+    const food = ['egg','apple','egg','egg','ham'];
+    console.log(removeEggs(food));
+    </script>
+  </body>
+</html>
