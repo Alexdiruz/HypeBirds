@@ -6,6 +6,8 @@
   <body>
 
     <button class="finish-button" onclick="
+      document.querySelector('.finish-button')
+        .innerHTML = 'Loading...';
       setTimeout(function(){
         document.querySelector('.finish-button')
           .innerHTML = 'Finished'
