@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+    </style>
+  </head>
+  <body>
+    <script>
+      function countPositive (array){
+        let count = 0;
+        array.forEach(value => {
+          if(value>=0){
+            count++;
+          }
+        });
+        return count;
+      }
+      const array =  [1,2,3];
+      console.log(countPositive(array));
+    </script>
+  </body>
+</html>
