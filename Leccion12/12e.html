@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Advanced Functions</title>
+  </head>
+  <body>
+    <button class="add-button" onclick="
+      document.querySelector('.add-p')
+        .innerHTML = 'Added';
+        setTimeout(function(){
+          document.querySelector('.add-p')
+        .innerHTML = '';
+        },2000);
+    ">Add to cart</button>
+    <p class="add-p"></p>
+    
+    <script>
+    </script>
+  </body>
+</html>
